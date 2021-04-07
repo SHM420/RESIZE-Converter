@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utillities.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">  
+    <title>RESIZE Converter</title>
+</head>
+<body>
+    <main class="flex">
+        <section class="glass glassmorphism">
+            <div class="dashboard flex">
+                <h1><span><a href="http://resize.rs/" target="_blank">RESIZE</a></span> Converter</h1>
+            </div>
+            <div class="text flex">
+                <h3>Enter the number you want to convert in the appropriate field.</h3>
+            </div>
+            <form>
+                <div class="grid-container">
+                    <div class="bin"><p>Binary:</p><input id="Bin" class="glassmorphism input" type="text" name="Bin"></div>
+                    <div class="dec"><p>Decimal:</p><input id="Dec" class="glassmorphism input" type="text" name="Dec"></div>
+                    <div class="oct"><p>Octal:</p><input id="Oct" class="glassmorphism input" type="text" name="Oct"></div>
+                    <div class="hex"><p>Hexa:</p><input id="Hex" class="glassmorphism input" type="text" name="Hex"></div>
+                    <div class="con"><input type="button" class="button" id="clickme" value="Convert"></div>
+                    <div class="del"><input type="reset" class="button" value="Delete"></div>
+                </div>
+            </form>
+            <div class="footer flex">
+                <h3>Powered by: &nbsp;<span><a href="http://resize.rs/" target="_blank">RESIZE</a></span></h3>
+            </div>
+        </section>
+    </main>
+    <div class="circle1 glassmorphism">
+        <div class="eye1"></div>
+        <div class="eye2"></div>
+    </div>
+    <div class="circle2 glassmorphism">
+        <div class="eye1"></div>
+        <div class="eye2"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
