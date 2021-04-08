@@ -23,12 +23,12 @@ main{
     clip-path: circle(50% at 50% 50%);
 }
 .circle1{
-    top: 2%;
-    left: 15%;
+    top: 0;
+    left: 14%;
 }
 .circle2{
-    bottom: 2%;
-    right: 15%;
+    bottom: 0;
+    right: 14%;
 }
 .eye1,.eye2{
     position: absolute; 
@@ -134,7 +134,7 @@ main{
     margin-left: 50px;
 }
 .hex p{
-    margin-left: 54px;
+    margin-left: 60px;
 }
 .footer{
     height: 3rem;
