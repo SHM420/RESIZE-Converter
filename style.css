@@ -69,17 +69,20 @@ main{
     transform: rotateZ(-15deg);
 }
 .dashboard{
+    position: absolute;
     height: 4rem;
-    min-width: auto;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, .3), rgba(182, 173, 173, .1));
-    box-shadow: 0 8px 32px 5px rgba( 31, 38, 135, 0.4);
-    backdrop-filter: blur( 5px );
-    -webkit-backdrop-filter: blur( 5.0px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.2 );
+    width: 90%;
+    top: -32px;
+    left: 5%;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 40px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .text{
-    margin-top: 50px;
+    margin-top: 120px;
 }
 .grid-container {
     display: grid;
@@ -105,6 +108,7 @@ main{
 .del {grid-area: del;}
 .input{
     text-align: center;
+    height: 1.5rem;
 }
 .button{
     width: 150px;
@@ -137,15 +141,17 @@ main{
     margin-left: 60px;
 }
 .footer{
-    height: 3rem;
-    margin-top: 23vh;
-    min-width: auto;
-    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.3), rgba(182, 173, 173, 0.1));
-    box-shadow: 0 8px 32px 5px rgba( 31, 38, 135, 0.4);
-    backdrop-filter: blur( 5.0px );
-    -webkit-backdrop-filter: blur( 5.0px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.2 );
+    position: absolute;
+    height: 4rem;
+    width: 90%;
+    bottom: -32px;
+    left: 5%;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 40px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 span a{
     text-decoration: none;
